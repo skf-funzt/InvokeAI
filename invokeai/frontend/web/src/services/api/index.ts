@@ -7,6 +7,10 @@ export { OpenAPI } from './core/OpenAPI';
 export type { OpenAPIConfig } from './core/OpenAPI';
 
 export type { AddInvocation } from './models/AddInvocation';
+export type { BoardChanges } from './models/BoardChanges';
+export type { BoardRecord } from './models/BoardRecord';
+export type { Body_create_board_image } from './models/Body_create_board_image';
+export type { Body_remove_board_image } from './models/Body_remove_board_image';
 export type { Body_upload_image } from './models/Body_upload_image';
 export type { CannyImageProcessorInvocation } from './models/CannyImageProcessorInvocation';
 export type { CkptModelInfo } from './models/CkptModelInfo';
@@ -80,6 +84,7 @@ export type { MultiplyInvocation } from './models/MultiplyInvocation';
 export type { NoiseInvocation } from './models/NoiseInvocation';
 export type { NoiseOutput } from './models/NoiseOutput';
 export type { NormalbaeImageProcessorInvocation } from './models/NormalbaeImageProcessorInvocation';
+export type { OffsetPaginatedResults_BoardRecord_ } from './models/OffsetPaginatedResults_BoardRecord_';
 export type { OffsetPaginatedResults_ImageDTO_ } from './models/OffsetPaginatedResults_ImageDTO_';
 export type { OpenposeImageProcessorInvocation } from './models/OpenposeImageProcessorInvocation';
 export type { PaginatedResults_GraphExecutionState_ } from './models/PaginatedResults_GraphExecutionState_';
@@ -105,6 +110,7 @@ export type { VaeRepo } from './models/VaeRepo';
 export type { ValidationError } from './models/ValidationError';
 export type { ZoeDepthImageProcessorInvocation } from './models/ZoeDepthImageProcessorInvocation';
 
+export { BoardsService } from './services/BoardsService';
 export { ImagesService } from './services/ImagesService';
 export { ModelsService } from './services/ModelsService';
 export { SessionsService } from './services/SessionsService';
