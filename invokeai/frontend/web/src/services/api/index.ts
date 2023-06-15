@@ -8,7 +8,7 @@ export type { OpenAPIConfig } from './core/OpenAPI';
 
 export type { AddInvocation } from './models/AddInvocation';
 export type { BoardChanges } from './models/BoardChanges';
-export type { BoardRecord } from './models/BoardRecord';
+export type { BoardDTO } from './models/BoardDTO';
 export type { Body_create_board_image } from './models/Body_create_board_image';
 export type { Body_remove_board_image } from './models/Body_remove_board_image';
 export type { Body_upload_image } from './models/Body_upload_image';
@@ -84,7 +84,7 @@ export type { MultiplyInvocation } from './models/MultiplyInvocation';
 export type { NoiseInvocation } from './models/NoiseInvocation';
 export type { NoiseOutput } from './models/NoiseOutput';
 export type { NormalbaeImageProcessorInvocation } from './models/NormalbaeImageProcessorInvocation';
-export type { OffsetPaginatedResults_BoardRecord_ } from './models/OffsetPaginatedResults_BoardRecord_';
+export type { OffsetPaginatedResults_BoardDTO_ } from './models/OffsetPaginatedResults_BoardDTO_';
 export type { OffsetPaginatedResults_ImageDTO_ } from './models/OffsetPaginatedResults_ImageDTO_';
 export type { OpenposeImageProcessorInvocation } from './models/OpenposeImageProcessorInvocation';
 export type { PaginatedResults_GraphExecutionState_ } from './models/PaginatedResults_GraphExecutionState_';
